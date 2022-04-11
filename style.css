@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h1 {
+  color: #27b0dd;
+  font-family: fantasy;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.selector {
+  background-color: hsl(195deg 73% 51%);
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.container {
+  background-color: lightslategrey;
+  height: calc(100vh - 148px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  background-color: white;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px 30px;
+  text-align: center;
+}
+.box .fa-solid {
+  font-size: 40px;
+  padding: 15%;
+}
