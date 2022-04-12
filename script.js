@@ -137,15 +137,16 @@ function selezionaIcons() {
     }
 }
 
-
-
 function stampaIcons(listIcons) {
     container.innerHTML = ""
     for (i = 0; i < listIcons.length; i++) {
 
         container.innerHTML += `
                     <div class="box ${listIcons[i].color}">
-                        <i class="${listIcons[i].family} ${listIcons[i].prefix}"></i>
+                    
+                    <i class="${listIcons[i].family} ${listIcons[i].prefix}"></i>
+                    <p>${listIcons[i].name}</p>
+
                     </div>
                     `
     }

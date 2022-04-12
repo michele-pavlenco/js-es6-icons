@@ -38,7 +38,10 @@ header h1 {
 }
 .box .fa-solid {
   font-size: 40px;
-  padding: 15%;
+  padding-top: 15%
+}
+.box p{
+  color: black;
 }
 .blue{
     color: blue;
